@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+:root { 
+    --cor: #072959;
+    --cor1: #06407f;
+    --cor2: #006dc7;
+    --cor3: #98cbf3;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    color: var(--cor2);
+}
+
+#men {
+    font-size: 1.8em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    padding-top: calc(-50%);
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
