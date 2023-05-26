@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     :root { 
         --cor: #072959;
@@ -31,9 +31,39 @@
         color: black;
         
     }
-    
-    footer {
-        text-align: center;
+
+    #men {
+        font-size: 1.8em;
+        display: block;
+        text-align: right;
+        padding: 10px;
+        padding-top: calc(-50%);
+        cursor: pointer;
     }
+
+    menu {
+        display: none;
+        padding: 10px;
+        box-shadow: 0px 7px 7px var(--cor1);
+
+    }
+
+    menu ul {
+        list-style-type: none;
+    }
+
+    menu > ul > li > a {
+        display: block;
+        font-size: 1.1em;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5s;
+        color: rgba(0, 255, 255, 0.756);
+    }
+    
+   
 
 }
