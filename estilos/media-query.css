@@ -41,10 +41,15 @@
         cursor: pointer;
     }
 
+    #links {
+        font-size: 1.3em;
+        
+    }
+
     menu {
         display: none;
         padding: 10px;
-        box-shadow: 0px 7px 7px var(--cor1);
+        
 
     }
 
@@ -55,15 +60,13 @@
     menu > ul > li > a {
         display: block;
         font-size: 1.1em;
-        text-align: center;
+        text-align: right;
         padding: 10px;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5s;
-        color: rgba(0, 255, 255, 0.756);
+        ;
     }
-    
-   
 
 }
