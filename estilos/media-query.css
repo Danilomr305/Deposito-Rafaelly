@@ -69,4 +69,8 @@
         ;
     }
 
+   menu > a:hover {
+    box-shadow: #98cbf3;
+   }
+
 }
