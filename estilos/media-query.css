@@ -73,4 +73,39 @@
     box-shadow: #98cbf3;
    }
 
+   article > img {
+    margin: auto;
+    display: block;
+    padding: 10px;
+    height: 240px;
+    width: 435px;
+    border-radius: 20px;
+   }
+
+   article > P {
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 350px;
+   }
+
+   article > button {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    background-color: var(--cor3);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5pc;
+    padding: 10px;
+   }
+
+   article > button:hover {
+    background-color: var(--cor1);
+    color: white;
+    cursor: pointer;
+   }
+
 }
