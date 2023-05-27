@@ -15,9 +15,9 @@
     }
     
     body {
-        background-color: white;
+        background-color: rgba(0, 0, 0, 0.555);
     }
-    
+
     header {
         text-align: center;
         color: var(--cor2);
@@ -109,4 +109,30 @@
     cursor: pointer;
    }
 
+    picture > img {
+        margin: auto;
+        margin-top: 20px;
+        height: 100px;
+        width: 65px;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 6px;
+        margin-left: 10px;
+        
+    }        
+
+
+    #pequena {
+        background-color: azure;
+        margin-left: 110px;
+    }
+
+    #media {
+        background-color: azure;
+    }
+
+    #grande {
+        background-color: azure;
+    }
+   
 }
