@@ -15,20 +15,22 @@
     }
     
     body {
-        background-color: rgba(0, 0, 0, 0.555);
+        background-color: var(--cor2);
     }
 
     header {
         text-align: center;
-        color: var(--cor2);
+        color: white;
     }
     
     header h1 {
+        margin-top: 10px;
         font-size: 2em;
     }
 
     header span {
-        color: rgb(0, 0, 0);
+        color: white;
+        margin-top: 8px;
         
     }
 
@@ -37,7 +39,6 @@
         display: block;
         text-align: center;
         padding: 10px;
-        padding-top: calc(-50%);
         cursor: pointer;
     }
 
@@ -59,19 +60,19 @@
 
     menu > ul > li > a {
         display: block;
-        font-size: 1.1em;
+        margin: auto;
+        margin-top: 1px;
+        font-size: 1em;
         text-align: center;
         padding: 10px;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5s;
-        ;
+        background-color: var(--cor);
+        color: azure;
+        width: 130px;
     }
-
-   menu > a:hover {
-    box-shadow: #98cbf3;
-   }
 
    article > img {
     margin: auto;
@@ -95,8 +96,9 @@
     margin: auto;
     display: block;
     margin-top: 10px;
-    background-color: var(--cor1);
+    background-color: var(--cor);
     color: white;
+    border: var(--cor);
     font-size: 1em;
     font-weight: bold;
     border-radius: 5pc;
@@ -104,9 +106,10 @@
    }
 
    article > button:hover {
-    background-color: var(--cor1);
-    color: white;
+    background-color: white;
+    color: var(--cor1);
     cursor: pointer;
+    border: white;
    }
 
     picture > img {
@@ -157,10 +160,22 @@
         margin-top: 25px;
         padding: 13px;
         width: 7pc;
-        background-color: var(--cor1);
+        background-color: var(--cor);
         color: white;
+        border: var(--cor);
         border-radius: 10px;
+        font-weight: bolder;
+        font-size: 0.8em;
     }
+
+    section > button:hover {
+        background-color: white;
+        color: var(--cor1);
+        cursor: pointer;
+        border: white;
+
+    }
+
     
    
 }
