@@ -28,14 +28,14 @@
     }
 
     header span {
-        color: black;
+        color: rgb(0, 0, 0);
         
     }
 
     #men {
         font-size: 1.8em;
         display: block;
-        text-align: right;
+        text-align: center;
         padding: 10px;
         padding-top: calc(-50%);
         cursor: pointer;
@@ -44,7 +44,7 @@
     #links {
         font-size: 1.3em;
         
-    }
+    } 
 
     menu {
         display: none;
@@ -60,7 +60,7 @@
     menu > ul > li > a {
         display: block;
         font-size: 1.1em;
-        text-align: right;
+        text-align: center;
         padding: 10px;
         border-radius: 5px;
         text-decoration: none;
@@ -133,6 +133,11 @@
 
     .grande {
         background-color: azure;
+    }
+
+    .carvao {
+        background-color: azure;
+        margin-left: 170px;
     }
 
     
