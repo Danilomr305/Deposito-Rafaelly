@@ -122,17 +122,19 @@
     }        
 
 
-    #pequena {
+    .pequena {
         background-color: azure;
         margin-left: 72px;
     }
 
-    #media {
+    .media {
         background-color: azure;
     }
 
-    #grande {
+    .grande {
         background-color: azure;
     }
+
+    
    
 }
