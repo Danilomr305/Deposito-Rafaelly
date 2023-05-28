@@ -142,6 +142,15 @@
         width: 85px;
     }
 
+    section > iframe {
+        margin: auto;
+        display: block;
+        height: 350px;
+        width: 250px;
+        margin-top: 20px;
+        border-radius: 2px;
+    }
+
     
    
 }
