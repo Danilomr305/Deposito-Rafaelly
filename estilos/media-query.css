@@ -95,8 +95,8 @@
     margin: auto;
     display: block;
     margin-top: 10px;
-    background-color: var(--cor3);
-    color: black;
+    background-color: var(--cor1);
+    color: white;
     font-size: 1em;
     font-weight: bold;
     border-radius: 5pc;
@@ -146,11 +146,21 @@
         margin: auto;
         display: block;
         height: 350px;
-        width: 250px;
+        width: 290px;
         margin-top: 20px;
-        border-radius: 2px;
+        border-radius: 4px;
     }
 
+    section > button {
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        padding: 13px;
+        width: 7pc;
+        background-color: var(--cor1);
+        color: white;
+        border-radius: 10px;
+    }
     
    
 }
