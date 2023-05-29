@@ -15,7 +15,7 @@
     }
     
     body {
-        background-color: var(--cor2);
+        background-color: #006dc7;
     }
 
     header {
@@ -90,6 +90,7 @@
     text-align: center;
     padding: 5px;
     width: 350px;
+    color: beige;
    }
 
    article > button {
@@ -154,7 +155,7 @@
         border-radius: 4px;
     }
 
-    section > button {
+    a > button {
         display: block;
         margin: auto;
         margin-top: 25px;
@@ -168,13 +169,41 @@
         font-size: 0.8em;
     }
 
-    section > button:hover {
+    a > button:hover {
         background-color: white;
         color: var(--cor1);
         cursor: pointer;
         border: white;
 
     }
+
+    #horarios {
+        border-collapse: collapse;
+    }
+
+    table {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        color: beige;
+
+    }
+
+    caption {
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 7px;
+    }
+
+    tbody, tr, td {
+        padding: 2px;
+    }
+
+   
+
+    
+
 
     
    
