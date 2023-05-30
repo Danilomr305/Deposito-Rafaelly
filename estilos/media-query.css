@@ -155,6 +155,13 @@
         width: 85px;
     }
 
+    section > h3 {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.5em;
+
+    }
+
     section > iframe {
         margin: auto;
         display: block;
@@ -212,12 +219,41 @@
     .avaliacao {display: flex;}
 
     .star-icon {
+        max-width: 1px;
+        margin: auto;
         list-style-type: none;
-        border: 1px solid #fff;
+        border: 1px solid var(--cor2);
         cursor: pointer;
         color: #ffe500;
-
+        font-size: 2em;
     }
+
+    .star-icon::before {
+        content: "\2605"
+    }
+
+    .star-icon.ativo ~ .star-icon::before {
+        content: "\2606";
+    }
+
+    .avaliacao:hover .star-icon::before {
+        content: "\2605";
+    }
+
+    .star-icon:hover ~ .star-icon::before {
+        content: "\2606";
+    }
+
+    footer > p {
+        margin-top: 20px;
+        font-weight: bolder;
+        font-size: 1em;
+        text-align: center;
+    }
+
+
+
+    
 
    
 
