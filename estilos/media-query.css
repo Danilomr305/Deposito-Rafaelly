@@ -15,17 +15,25 @@
     }
     
     body {
-        background-color: #006dc7;
+        background-color: var(--cor2);
     }
 
     header {
+        background-image: linear-gradient(to bottom, var(--cor), var(--cor2));
         text-align: center;
         color: white;
     }
     
     header h1 {
-        margin-top: 10px;
+        margin-top: 0px;
         font-size: 2em;
+    }
+
+    header p {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bolder;
+        font-size: 1.2em;
     }
 
     header span {
