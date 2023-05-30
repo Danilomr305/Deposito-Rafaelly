@@ -13,12 +13,31 @@
 }
 
 body {
-    background-color: white;
+    background-color: var(--cor2);
 }
 
 header {
+    background-image: linear-gradient(to bottom, var(--cor), var(--cor2));
     text-align: center;
-    color: var(--cor2);
+    color: white;
+}
+
+header h1 {
+    margin-top: 0px;
+    font-size: 4em;
+}
+
+header p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1.9em;
+}
+
+header span {
+    color: white;
+    margin-top: 8px;
+    
 }
 
 #men {
@@ -32,11 +51,13 @@ header {
 #links {
     font-size: 1.3em;
     
-}
+} 
 
 menu {
     display: none;
     padding: 10px;
+    
+
 }
 
 menu ul {
@@ -45,55 +66,143 @@ menu ul {
 
 menu > ul > li > a {
     display: block;
-    font-size: 1.1em;
+    margin: auto;
+    margin-top: 1px;
+    font-size: 1em;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
-   
+    background-color: var(--cor);
+    color: azure;
+    width: 130px;
 }
 
-menu > a:hover {
-    box-shadow: #98cbf3;
-   }
+article > img {
+margin: auto;
+display: block;
+padding: 10px;
+height: 240px;
+width: 350px;
+border-radius: 20px;
+}
 
-   article > img {
+article > P {
+margin: auto;
+font-size: 1.2em;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+width: 350px;
+color: beige;
+}
+
+article > button {
+
+margin: auto;
+display: block;
+margin-top: 10px;
+background-color: var(--cor);
+color: white;
+border: var(--cor);
+font-size: 1em;
+font-weight: bold;
+border-radius: 5pc;
+padding: 10px;
+}
+
+article > button:hover {
+background-color: white;
+color: var(--cor1);
+cursor: pointer;
+border: white;
+}
+
+picture > img {
+    margin: auto;
+    margin-top: 20px;
+    height: 130px;
+    width: 65px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    
+}        
+
+
+.pequena {
+    background-color: azure;
+    margin-left: 65px;
+}
+
+.media {
+    background-color: azure;
+}
+
+.grande {
+    background-color: azure;
+}
+
+.carvao {
+    background-color: azure;
+    margin-left: 152px;
+    height: 120px;
+    width: 85px;
+}
+
+section > iframe {
     margin: auto;
     display: block;
-    padding: 10px;
-    height: 240px;
-    width: 350px;
-    border-radius: 20px;
-   }
+    height: 350px;
+    width: 290px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
 
-   article > P {
+#rotas {
+    display: block;
     margin: auto;
+    margin-top: 25px;
+    padding: 13px;
+    width: 7pc;
+    background-color: var(--cor);
+    color: white;
+    border: var(--cor);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
+a > button:hover {
+    background-color: white;
+    color: var(--cor1);
+    cursor: pointer;
+    border: white;
+
+}
+
+#horarios {
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    color: beige;
+
+}
+
+caption {
     font-size: 1.2em;
     font-weight: bold;
-    text-align: center;
-    padding: 5px;
-    width: 350px;
-   }
+    padding: 7px;
+}
 
-   article > button {
-    margin: auto;
-    display: block;
-    margin-top: 10px;
-    background-color: var(--cor3);
-    font-size: 1em;
-    font-weight: bold;
-    border-radius: 5pc;
-    padding: 10px;
-   }
-
-   article > button:hover {
-    background-color: var(--cor1);
-    color: white;
-    cursor: pointer;
-   }
-
-footer {
-    text-align: center;
+tbody, tr, td {
+    padding: 2px;
 }
