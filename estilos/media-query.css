@@ -209,6 +209,16 @@
         padding: 2px;
     }
 
+    .avaliacao {display: flex;}
+
+    .star-icon {
+        list-style-type: none;
+        border: 1px solid #fff;
+        cursor: pointer;
+        color: #ffe500;
+
+    }
+
    
 
     
